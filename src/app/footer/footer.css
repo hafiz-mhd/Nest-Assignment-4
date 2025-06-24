@@ -1,0 +1,51 @@
+footer {
+  background-color: #121212; /* Deep dark background */
+  color: #ffffff;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+footer h5,
+footer h6 {
+  color: #f1c40f; /* Gold-ish heading color for visibility */
+}
+
+footer a {
+  color: #ffffff;
+  transition: color 0.3s ease;
+}
+
+footer a:hover {
+  color: #f1c40f;
+  text-decoration: none;
+}
+
+footer .btn-outline-warning {
+  border: 2px solid #f1c40f;
+  color: #f1c40f;
+  background-color: transparent;
+  transition: all 0.3s ease;
+}
+
+footer .btn-outline-warning:hover {
+  background-color: #f1c40f;
+  color: #121212;
+}
+
+footer .form-control {
+  background-color: #1e1e1e;
+  border: 1px solid #555;
+  color: #fff;
+}
+
+footer .form-control::placeholder {
+  color: #aaa;
+}
+
+footer .btn-outline-light:hover {
+  background-color: #ffffff;
+  color: #121212;
+}
+
+footer .text-muted {
+  color: #bbb !important;
+}
